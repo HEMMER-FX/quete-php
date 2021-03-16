@@ -1,0 +1,11 @@
+    $movies = [
+        'Les Aventuriers de l\'arche perdue (1981)' => [' Harrison Ford' ,' Karen Allen ' , 'Paul Freeman' ],
+        'Indiana Jones et la dernière croisade (1989)' => ['Harrison Ford ', 'Sean Connery ', 'Denholm Elliott '],
+        'Indiana Jones et le temple maudit (1984)' => [ 'Harrison Ford ', 'Kate Capshaw ', 'Ke Huy Quan ']
+    ];
+    foreach($movies as $movie_title => $nameOfActor){
+        echo "<br>Dans le film " . $movie_title . "les acteurs principaux sont :";
+        foreach($nameOfActor as $actors){
+            echo $actors . " , ";
+        }
+    }
