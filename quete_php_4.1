@@ -1,0 +1,14 @@
+<?php
+    $movieOfIndiana = [
+        'Indiana Jones et le Temple maudit' => 1994,
+        'Les Aventuriers de l\'arche perdue' => 1992 ,
+        'Indiana Jones et la Dernière Croisade' => 1996 
+    ];
+    asort($movieOfIndiana);
+    foreach ($movieOfIndiana as $annee => $movie){
+        
+        echo $movie . " - ";
+        echo $annee . "<br>";
+    }
+    echo var_dump($movieOfIndiana);
+?>
