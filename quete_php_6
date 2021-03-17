@@ -1,0 +1,14 @@
+<?php
+
+function writeSecretSentence(string $argument1, string $argument2): string
+{
+    $phraseMystere = "$argument1 s'incline face à $argument2";
+    return $phraseMystere;
+}
+
+$argument1="L'ours brun unijambiste";
+$argument2="La sauterelle à 3 pattes";
+
+echo writeSecretSentence($argument1, $argument2);
+
+?>
