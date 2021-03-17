@@ -1,0 +1,12 @@
+//               lien image  sans xdebug https://imgur.com/62gljlD
+
+<?php 
+   $characters = [
+        "Negan" => ["city" => "The Sanctuary","weapon" => "Lucille"],
+        "Daryl" => ["city" => "Alexandria","weapon" => "crossbow"],
+        "Ezekiel" => ["city" => "The Kingdom","weapon" => "Shiva"],
+        "FX" => ["city" => "Franca","weapon" => "Sabre"]];
+
+
+var_dump($characters);
+?>
